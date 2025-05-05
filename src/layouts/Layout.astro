@@ -44,17 +44,10 @@ import Footer from "@/components/Footer.astro";
       content="Una página personal en donde comparto mis redes sociales y mis tecnologías favoritas como desarrollador web. </>"
     />
   </head>
-  <body>
+  <body
+    class="max-w-xl mx-auto min-h-dvh bg-gradient-to-b from-black via-sky-950 to-gray-800"
+  >
     <slot />
     <Footer />
   </body>
 </html>
-
-<style>
-  html,
-  body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>
