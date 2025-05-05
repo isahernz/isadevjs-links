@@ -1,0 +1,22 @@
+---
+import { Image } from "astro:assets";
+import Badge from "@/components/Badge.astro";
+import isadevjsPhoto from "@/assets/images/isadevjs-photo.webp";
+---
+
+<header>
+  <Image
+    class="mask-radial-from-50% mask-radial-to-70% mx-auto object-cover animate-pulse-fade-in mask-radial-at-center"
+    height={384}
+    src={isadevjsPhoto}
+    alt="Foto de isadevjs sonriendo"
+  />
+  <div class="flex flex-col justify-center items-center -mt-12">
+    <Badge username="isadevjs" />
+    <h1
+      class="mt-1 font-extrabold text-white text-3xl text-center leading-tight"
+    >
+      Isahir Hernández
+    </h1>
+  </div>
+</header>
