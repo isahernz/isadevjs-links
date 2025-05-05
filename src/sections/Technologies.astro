@@ -13,6 +13,10 @@ import { TECHNOLOGIES } from "@/consts/technologies";
         ({ name, image, url, bentoPosition, backgroundColor }) => (
           <a
             href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Ir a la página de ${name}`}
+            title={`Ir a la página de ${name}`}
             class:list={[
               "group relative flex flex-col items-start rounded-3xl min-h-[180px] overflow-hidden text-white hover:scale-105 transition hover:contrast-125",
               bentoPosition?.cols &&
