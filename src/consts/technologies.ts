@@ -56,6 +56,10 @@ export const TECHNOLOGIES: Technology[] = [
     },
     url: "https://laravel.com/",
     backgroundColor: "bg-gradient-to-br from-red-950 via-red-900 to-red-800",
+    bentoPosition: {
+      cols: 1,
+      rows: 1,
+    },
   },
   {
     id: "css",
@@ -65,5 +69,9 @@ export const TECHNOLOGIES: Technology[] = [
     },
     url: "https://developer.mozilla.org/es/docs/Web/CSS",
     backgroundColor: "bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800",
+    bentoPosition: {
+      cols: 1,
+      rows: 1,
+    },
   },
 ];
