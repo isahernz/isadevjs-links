@@ -1,0 +1,16 @@
+---
+import Verified from "@/assets/icons/verified.svg";
+
+interface Props {
+  username: string;
+}
+
+const { username } = Astro.props;
+---
+
+<span
+  class="z-10 flex items-center gap-2 bg-black shadow-sm px-3 py-1 border border-sky-500/50 rounded-full max-w-max text-sky-400 text-xl cursor-crosshair"
+>
+  @{username}
+  <Verified class="size-5" />
+</span>
